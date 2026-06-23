@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varun Teja | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    color:#38bdf8;
+}
+
+.hero h2{
+    font-size:1.5rem;
+    margin:10px 0;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#cbd5e1;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:#38bdf8;
+    color:#0f172a;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2.5rem;
+    color:#38bdf8;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:40px;
+    align-items:center;
+}
+
+.profile{
+    width:250px;
+    height:250px;
+    background:#1e293b;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:80px;
+    margin:auto;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.timeline{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.timeline-item{
+    background:#1e293b;
+    padding:25px;
+    border-left:5px solid #38bdf8;
+    border-radius:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+
+@media(max-width:768px){
+    .about{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Varun Teja</h1>
+        <h2>Head of Agency | Performance Marketing Strategist</h2>
+
+        <p>
+            Results-driven professional with expertise in agency operations,
+            team leadership, business development, and performance marketing.
+            Passionate about driving scalable growth through data-driven
+            strategies and operational excellence.
+        </p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about">
+        <div class="profile">VT</div>
+
+        <div class="card">
+            <p>
+                I am a B.Tech graduate in Electronics & Communication Engineering
+                from GITAM School of Core Engineering. Currently serving as
+                Head of Agency at Kavora Tech Groups, where I lead
+                performance marketing campaigns, business operations,
+                and cross-functional teams.
+            </p>
+            <br>
+            <p>
+                My expertise includes client acquisition, strategic partnerships,
+                digital marketing, team management, and operational optimization.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills">
+        <div class="skill">Graphic Design</div>
+        <div class="skill">Client Acquisition</div>
+        <div class="skill">Negotiation Skills</div>
+        <div class="skill">Problem Solving</div>
+        <div class="skill">Team Leadership</div>
+        <div class="skill">Performance Marketing</div>
+        <div class="skill">Client Coordination</div>
+        <div class="skill">Time Management</div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2 class="section-title">Work Experience</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>Head of Agency | Kavora Tech Groups</h3>
+            <small>June 2026 – Present</small>
+            <p>
+                Leading agency operations, performance marketing,
+                campaign optimization, and strategic growth initiatives.
+                Managing cross-functional teams and scaling business operations.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Head of Marketing Agency Operations | DION GROUPS</h3>
+            <small>December 2025 – April 2026</small>
+            <p>
+                Directed performance marketing campaigns,
+                optimized ROI and CPP, managed partnerships,
+                and improved organizational processes.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Event Coordinator | IEEE Circuits and Systems Society</h3>
+            <small>October 2025 – January 2026</small>
+            <p>
+                Coordinated promotional campaigns, marketing content,
+                and event engagement strategies for successful event execution.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="card">
+        <h3>Bachelor of Technology</h3>
+        <p>Electronics & Communication Engineering</p>
+        <p>GITAM School of Core Engineering</p>
+        <p>CGPA: 6.67</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact">
+        <p>Email: <a href="mailto:tejavarun172@gmail.com">tejavarun172@gmail.com</a></p>
+        <p>Phone: <a href="tel:+918977030956">+91 89770 30956</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/varun-teja2" target="_blank">linkedin.com/in/varun-teja2</a></p>
+        <br>
+        <a href="#" class="btn">Download Resume</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Varun Teja. All Rights Reserved.</p>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href'))
+            .scrollIntoView({
+                behavior: 'smooth'
+            });
+    });
+});
+</script>
+
+</body>
+</html>
